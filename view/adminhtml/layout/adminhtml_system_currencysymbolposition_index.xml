@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2021 Magegadgets. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="styles" />
+    <body>
+        <referenceContainer name="content">
+            <block class="Magegadgets\CurrencySymbolPosition\Block\Adminhtml\System\CurrencySymbolPosition" name="mage.system.currency.symbol.position" template="Magegadgets_CurrencySymbolPosition::grid.phtml"/>
+        </referenceContainer>
+    </body>
+</page>
