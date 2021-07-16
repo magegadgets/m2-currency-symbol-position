@@ -31,7 +31,6 @@ Under your root folder, run the following command lines:
     php bin/magento setup:di:compile;
     php bin/magento setup:static-content:deploy -f;
     php bin/magento cache:flush;
-    
 
 # How to see the results
 
